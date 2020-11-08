@@ -21,8 +21,9 @@ header{
     margin-left: 40px;
 }
 body{
-    margin: 0px;
+    margin: 8px;
     height: 1735px;
+    width: 1424px;
 }
 
 .head_nav{
@@ -102,7 +103,7 @@ ul li{
     height: 1508px;
 }
 .shop_title{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 
 
