@@ -4,10 +4,7 @@ html{
     margin: auto;
     font-family: 'Noto Sans TC', sans-serif;
     color: #696868;
-   
     
-
-
 }
 
 header{
@@ -93,9 +90,11 @@ ul li{
 .main{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 915px;
     height: 1735px;
     margin:0px 207px 0px 207px;
+    
 }
 .shops{
     margin:106px 0px 0px 0px;
@@ -113,12 +112,13 @@ ul li{
     display: flex;
     width: 800px;
     flex-wrap: wrap;
-    margin-top: 0px;
-    margin-left: -17.5px;
+    margin:0 -17.5px 0 -17.5px;
+    
    
 }
 li{
-    width: 181px;
+
+    width: 24%;
     height: 274px;
     padding: 16px;
     margin: 17.5px;
@@ -128,6 +128,7 @@ li{
     border-color: #738176;
     border-radius: 5px;
     border-style: solid;
+
 }
 
 .shop_list_item{
@@ -135,11 +136,14 @@ li{
     height: 152px;
     margin-bottom: 13px;
     transition: 0.5s;
+    opacity: 0.8;
     
     
 }
 .shop_list_item:hover{
-    opacity: 0.3;
+    opacity: 0.48;
+    border-radius : 12%;
+    transform : scale(1.05);
 
     
 }
@@ -158,7 +162,7 @@ li{
 .name{
     font-weight: bold;
     font-size: 20px;
-    letter-spacing: 7px;
+    letter-spacing: 5px;
     height: 20px;
     width: 70px;
     transition: 0.5s;
@@ -185,6 +189,7 @@ a {
 
     font-size: 12px;
     margin-top: 165px;
+    
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -210,11 +215,15 @@ label{
     color: white;
     text-align: center;
     font-family: 'Noto Sans TC', sans-serif;
-
+    font-size: 12px;
     padding-top: 10px;
 }
-.price_l .price_h .review{
-    width: 200px;
-    height: 19.8px;
-    margin: 20px;
+.price_l{
+    display: flex;
+}
+.price_h{
+    display: flex;
+}
+.review{
+    display: flex;
 }
